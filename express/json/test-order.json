@@ -1,0 +1,22 @@
+[{
+  "gid":"123",
+  "recive":{
+    "name":"XXX",
+    "addr":"XXXX",
+    "tel":"12345678910"
+  },
+  "defaultImg":"http://localhost:3000/img/1/jpg",
+  "sellername":"优衣库旗舰店",
+  "title":"衬衣",
+  "subtitle":"",
+  "params":{
+    "color":"柠檬黄",
+    "size":"M",
+    "price":99,
+    "num":5
+  },
+  "totalnum":5,
+  "totalmoney":495,
+  "warranties":["七天退换"]
+}
+]

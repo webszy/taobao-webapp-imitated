@@ -1,0 +1,10 @@
+{
+  "gid":"123",
+  "defaultImg":"http://localhost:3000/img/1/jpg",
+  "sellername":"优衣库旗舰店",
+  "title":"衬衣",
+  "subtitle":"",
+  "collectcount":120,
+  "saleCount":240,
+  "price":188
+}

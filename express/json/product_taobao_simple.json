@@ -1,0 +1,1050 @@
+{
+	"dataType": "product",
+	"pageToken": null,
+	"appCode": "taobao",
+	"hasNext": false,
+	"retcode": "000000",
+	"data": [
+		{
+			"sellerId": "57303596",
+			"catPathKey": null,
+			"id": "574968479651",
+			"url": "https://item.taobao.com/item.htm?id=574968479651",
+			"brandName": "Uniqlo/优衣库",
+			"promotions": [
+				"满200元 免运费-满200元,享部分地区包邮"
+			],
+			"catId1": null,
+			"stockSize": null,
+			"catName3": null,
+			"brandId": null,
+			"catName1": null,
+			"publishDateStr": null,
+			"likeCount": null,
+			"favoriteCount": 74798,
+			"videoUrls": null,
+			"userId": "196993935",
+			"monthSaleCount": 14092,
+			"highPrice": null,
+			"catName2": null,
+			"skuOptions": [
+				{
+					"id": "3933440299538",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bg9AmBsmBKNjSZFFXXcT9VXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "01 乳白色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299539",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bg9AmBsmBKNjSZFFXXcT9VXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "01 乳白色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 657,
+					"services": null
+				},
+				{
+					"id": "3933440299540",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bg9AmBsmBKNjSZFFXXcT9VXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "01 乳白色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 701,
+					"services": null
+				},
+				{
+					"id": "3933440299541",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bg9AmBsmBKNjSZFFXXcT9VXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "01 乳白色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 343,
+					"services": null
+				},
+				{
+					"id": "3933440299542",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bg9AmBsmBKNjSZFFXXcT9VXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "01 乳白色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 2,
+					"services": null
+				},
+				{
+					"id": "3933440299543",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Wf9zAiCYBuNkHFCcXXcHtVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "03 灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 3,
+					"services": null
+				},
+				{
+					"id": "3933440299544",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Wf9zAiCYBuNkHFCcXXcHtVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "03 灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 876,
+					"services": null
+				},
+				{
+					"id": "3933440299545",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Wf9zAiCYBuNkHFCcXXcHtVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "03 灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 1021,
+					"services": null
+				},
+				{
+					"id": "3933440299546",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Wf9zAiCYBuNkHFCcXXcHtVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "03 灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 367,
+					"services": null
+				},
+				{
+					"id": "3933440299547",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Wf9zAiCYBuNkHFCcXXcHtVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "03 灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 71,
+					"services": null
+				},
+				{
+					"id": "3933440299548",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2HxLdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "07 青灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 4,
+					"services": null
+				},
+				{
+					"id": "3933440299549",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2HxLdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "07 青灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 469,
+					"services": null
+				},
+				{
+					"id": "3933440299550",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2HxLdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "07 青灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 437,
+					"services": null
+				},
+				{
+					"id": "3933440299551",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2HxLdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "07 青灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 193,
+					"services": null
+				},
+				{
+					"id": "3933440299552",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2HxLdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "07 青灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 84,
+					"services": null
+				},
+				{
+					"id": "3933440299553",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Tpc1IwmTBuNjy1XbXXaMrVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "10 水粉色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299554",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Tpc1IwmTBuNjy1XbXXaMrVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "10 水粉色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 454,
+					"services": null
+				},
+				{
+					"id": "3933440299555",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Tpc1IwmTBuNjy1XbXXaMrVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "10 水粉色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 2,
+					"services": null
+				},
+				{
+					"id": "3933440299556",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Tpc1IwmTBuNjy1XbXXaMrVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "10 水粉色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 5,
+					"services": null
+				},
+				{
+					"id": "3933440299557",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2Tpc1IwmTBuNjy1XbXXaMrVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "10 水粉色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299558",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bfELIuGSBuNjSspbXXciipXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "12 桃红色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299559",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bfELIuGSBuNjSspbXXciipXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "12 桃红色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 3,
+					"services": null
+				},
+				{
+					"id": "3933440299560",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bfELIuGSBuNjSspbXXciipXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "12 桃红色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 1,
+					"services": null
+				},
+				{
+					"id": "3933440299561",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bfELIuGSBuNjSspbXXciipXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "12 桃红色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299562",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i2/196993935/TB2bfELIuGSBuNjSspbXXciipXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "12 桃红色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299563",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2rQ0iIQyWBuNjy0FpXXassXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "30 浅米色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299564",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2rQ0iIQyWBuNjy0FpXXassXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "30 浅米色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 535,
+					"services": null
+				},
+				{
+					"id": "3933440299565",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2rQ0iIQyWBuNjy0FpXXassXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "30 浅米色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 467,
+					"services": null
+				},
+				{
+					"id": "3933440299566",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2rQ0iIQyWBuNjy0FpXXassXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "30 浅米色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 98,
+					"services": null
+				},
+				{
+					"id": "3933440299567",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i4/196993935/TB2rQ0iIQyWBuNjy0FpXXassXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "30 浅米色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 2,
+					"services": null
+				},
+				{
+					"id": "3933440299568",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i1/196993935/TB2KTHfbzfguuRjSspaXXaXVXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "47 土黄色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299569",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i1/196993935/TB2KTHfbzfguuRjSspaXXaXVXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "47 土黄色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 1137,
+					"services": null
+				},
+				{
+					"id": "3933440299570",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i1/196993935/TB2KTHfbzfguuRjSspaXXaXVXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "47 土黄色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 276,
+					"services": null
+				},
+				{
+					"id": "3933440299571",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i1/196993935/TB2KTHfbzfguuRjSspaXXaXVXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "47 土黄色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 14,
+					"services": null
+				},
+				{
+					"id": "3933440299572",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i1/196993935/TB2KTHfbzfguuRjSspaXXaXVXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "47 土黄色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 4,
+					"services": null
+				},
+				{
+					"id": "3933440299573",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB2OBzpby6guuRjy1XdXXaAwpXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "58 深绿色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 478,
+					"services": null
+				},
+				{
+					"id": "3933440299574",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB2OBzpby6guuRjy1XdXXaAwpXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "58 深绿色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 396,
+					"services": null
+				},
+				{
+					"id": "3933440299575",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB2OBzpby6guuRjy1XdXXaAwpXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "58 深绿色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 269,
+					"services": null
+				},
+				{
+					"id": "3933440299576",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB2OBzpby6guuRjy1XdXXaAwpXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "58 深绿色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 92,
+					"services": null
+				},
+				{
+					"id": "3933440299577",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB22yTdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "60 浅蓝色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299578",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB22yTdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "60 浅蓝色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299579",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB22yTdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "60 浅蓝色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299580",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB22yTdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "60 浅蓝色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299581",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB22yTdby6guuRjy0FmXXa0DXXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "60 浅蓝色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 0,
+					"services": null
+				},
+				{
+					"id": "3933440299582",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB27ViImrZnBKNjSZFKXXcGOVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "90 蓝灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "150/76A/XS"
+						}
+					],
+					"stockSize": 22,
+					"services": null
+				},
+				{
+					"id": "3933440299583",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB27ViImrZnBKNjSZFKXXcGOVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "90 蓝灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "155/80A/S"
+						}
+					],
+					"stockSize": 370,
+					"services": null
+				},
+				{
+					"id": "3933440299584",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB27ViImrZnBKNjSZFKXXcGOVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "90 蓝灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/84A/M"
+						}
+					],
+					"stockSize": 304,
+					"services": null
+				},
+				{
+					"id": "3933440299585",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB27ViImrZnBKNjSZFKXXcGOVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "90 蓝灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "160/88A/L"
+						}
+					],
+					"stockSize": 262,
+					"services": null
+				},
+				{
+					"id": "3933440299586",
+					"imageUrls": [
+						"http://gw.alicdn.com/bao/uploaded/i3/196993935/TB27ViImrZnBKNjSZFKXXcGOVXa-196993935.jpg"
+					],
+					"price": 249,
+					"keyValues": [
+						{
+							"key": "颜色分类",
+							"value": "90 蓝灰色"
+						},
+						{
+							"key": "尺码",
+							"value": "165/92A/XL"
+						}
+					],
+					"stockSize": 154,
+					"services": null
+				}
+			],
+			"lowPrice": null,
+			"userScreenName": "优衣库官方旗舰店",
+			"shortTitle": null,
+			"publishDate": null,
+			"appPrice": null,
+			"marketPrice": null,
+			"keyValues": [
+				{
+					"key": "面料",
+					"value": "羊毛"
+				},
+				{
+					"key": "成分含量",
+					"value": "95%以上"
+				},
+				{
+					"key": "衣长",
+					"value": "常规款"
+				},
+				{
+					"key": "袖长",
+					"value": "长袖"
+				},
+				{
+					"key": "上市年份/季节",
+					"value": "2018年冬季"
+				},
+				{
+					"key": "品牌",
+					"value": "Uniqlo/优衣库"
+				},
+				{
+					"key": "货号",
+					"value": "UQ409953000"
+				},
+				{
+					"key": "材质成分",
+					"value": "羊毛100%"
+				},
+				{
+					"key": "尺码",
+					"value": "150/76A/XS 155/80A/S 160/84A/M 160/88A/L 165/92A/XL"
+				},
+				{
+					"key": "颜色分类",
+					"value": "01 乳白色 03 灰色 07 青灰色 10 水粉色 12 桃红色 30 浅米色 47 土黄色 58 深绿色 60 浅蓝色 90 蓝灰色"
+				}
+			],
+			"catId3": null,
+			"servRating": 4.8,
+			"title": "女装 柔软羊仔毛圆领针织衫(长袖) 409953 优衣库UNIQLO",
+			"descRating": 4.9,
+			"price": 249,
+			"detailImageUrls": [
+				"https://img.alicdn.com/imgextra/i2/196993935/O1CN011ewGyTVqTZ2KFRB-196993935.jpg",
+				"https://img.alicdn.com/imgextra/i4/196993935/O1CN011ewGyTS5K20LhXr-196993935.jpg",
+				"https://img.alicdn.com/imgextra/i3/196993935/O1CN011ewGyTVqoM92c5e-196993935.jpg",
+				"https://img.alicdn.com/imgextra/i1/196993935/O1CN011ewGySuO9anEo7N-196993935.jpg",
+				"https://img.alicdn.com/imgextra/i4/196993935/O1CN011ewGyMy9jmFb6Oe-196993935.jpg"
+			],
+			"rating": 4.9,
+			"catId2": null,
+			"discount": null,
+			"commentCount": 4091,
+			"originPlace": null,
+			"warranties": [
+				"正品保证",
+				"门店自提",
+				"极速退款",
+				"七天退换"
+			],
+			"queryWord": null,
+			"storehouse": "上海",
+			"soldout": null,
+			"mallType": null,
+			"imageUrls": [
+				"http://img.alicdn.com/imgextra/i1/196993935/O1CN011ewGz5u97GdoH3N_!!0-item_pic.jpg"
+			],
+			"saleRank": null,
+			"saleCount": 14092,
+			"logiRating": 4.9,
+			"tags": null,
+			"sellerScreenName": "优衣库官方旗舰店",
+			"subtitle": "初上市价格249元",
+			"openDate": "2009-03-10 15:35:06"
+		}
+	]
+}
