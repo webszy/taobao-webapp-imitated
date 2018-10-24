@@ -1,0 +1,420 @@
+@charset "utf-8";
+@function pxTorem($px){
+    @return $px / 200  * 1rem; 
+}
+@mixin intiBox($width,$height){
+    @if $width == 0 {
+        width: 100%;
+    }
+    @else{
+        width: pxTorem($width);
+    }
+    @if $height == 0{
+        height: auto;
+    }@else if $height == a{
+      height: 100%;
+    }@else{
+        height: pxTorem($height);
+    }
+}
+@mixin bgColor {
+    background-color: white;
+}
+
+
+html{
+  font-size: 26.67vw;
+  height: 100%;
+}
+body{
+  background-color: #f2f2f2;
+  height: 100%;
+}
+#app{
+  @include intiBox(0,a);
+  position: relative;
+}
+.wrap{
+  @include intiBox(0,a);
+}
+/*header*/
+.sgiHead{
+  @include intiBox(0,64);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 .09rem;
+  position: absolute;
+  left: 0;
+  top: pxTorem(10);
+  z-index: 9;
+  background-color: transparent;
+  .right{
+    display: flex;
+    justify-content: space-between;
+    width: pxTorem(144);
+  }
+  i{
+    @include intiBox(64,64);
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.3);
+    font-size: pxTorem(46);
+    line-height: pxTorem(64);
+    text-align: center;
+    color: white;
+    font-weight: 100;
+  }
+  .icon-gouwuche1{
+    font-size: pxTorem(50);
+  }
+}
+.sgiImgs{
+  @include intiBox(0,960);
+  .swiper-slide{
+    img{
+      display: block;
+      @include intiBox(0,960);
+    }
+  }
+  .swiper-pagination span{
+    @include intiBox(24,24);
+    position: absolute;
+    top:pxTorem(-20);
+  }
+}
+.sgiPrices{
+  @include intiBox(0,54 * 2);
+  background-color: #f61d4b;
+  box-sizing: border-box;
+  padding-left: pxTorem(12 * 2);
+  position: relative;
+  .left{
+    @include intiBox(353,a);
+    color: white;
+    float: left;
+  }
+  .right{
+    float: right;
+    @include intiBox(240,a);
+    background-color: #fff179;
+    box-sizing: border-box;
+    padding-top: pxTorem(15);
+    p{
+      font-size: pxTorem(26);
+      color: #f61d4b;
+      text-align: center
+    }
+  }
+  .right::before{
+      content:""; 
+      display:block;
+      width:0; 
+      height:0; 
+      border-width:0px .29rem .29rem;
+      border-style:none solid solid; 
+      border-color:transparent transparent #fff179;
+      position: absolute;
+      right: .99rem;
+      bottom:pxTorem(24);
+      transform: rotateZ(-90deg);
+  }
+}
+.nowPrice{
+  font-size: pxTorem(40);
+  font-weight: 400;
+  width: pxTorem(162);
+  float: left;
+  span{
+    font-size: pxTorem(66);
+    line-height: pxTorem(54 * 2 );
+    margin-left: pxTorem(-20);
+  }
+
+}
+.soldcount{
+@include intiBox(164,a);
+box-sizing: border-box;
+padding-top: pxTorem(14);
+float: left;
+margin-left: pxTorem(20);
+span{
+  display: block;
+}
+span:first-child{
+  font-size: pxTorem(22);
+  margin-bottom: pxTorem(12);
+}
+span:first-child{
+  font-size: pxTorem(22);
+}
+span:last-child{
+  font-size: pxTorem(26);
+  background-color: rgba(0,0,0,.3);
+  text-align: center;
+  line-height: pxTorem(40);
+}
+}
+.timeBox{
+  @include intiBox(0,40);
+  box-sizing: border-box;
+  padding-top: pxTorem(8);
+  font-size: pxTorem(26);
+  text-align: center;
+  i{
+    @include intiBox(40,40);
+    font-style: normal;
+    display: inline-block;
+    background-color: rgba(0,0,0,.6);
+    border-radius: pxTorem(6);
+    line-height: pxTorem(40);
+    color: white;
+    margin-left: pxTorem(6);
+  }
+}
+.sgiTitle{
+  @include intiBox(0,53 * 2);
+  @include bgColor;
+  box-sizing: border-box;
+  padding-left: pxTorem(24);
+  padding-top: pxTorem(16);
+  padding-right: pxTorem(24);
+  position: relative;
+
+  p{
+    @include intiBox(0,43 * 2);
+    float: left;
+    font-size: pxTorem(26);
+    line-height:  pxTorem(37);
+    color:#343434;
+    text-indent:pxTorem(75); 
+  }
+
+}
+.giIcon{
+  @include intiBox(75,40);
+  background-color: #ff002d;
+  border-radius: pxTorem(15);
+  color: white;
+  font-size: pxTorem(20);
+  line-height: pxTorem(40);
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: pxTorem(22);
+  top: pxTorem(8);
+}
+.giTitAdd{
+  @include intiBox(0,30 * 2);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: pxTorem(24);
+  padding-right: pxTorem(24);
+  @include bgColor;
+  p{
+    color: #999;
+    font-size: pxTorem(20);
+  }
+}
+.goodParames{
+  @include intiBox(0,1.7 * 200);
+  margin-top: pxTorem(20);
+  margin-bottom: pxTorem(20);
+  .top{
+    @include intiBox(0,96);
+    background-color: #fef1f8;
+    background-image: url("../images/goodInfo/juhuasuan.jpg");
+    background-repeat: no-repeat;
+    background-position: .14rem center;
+    background-size: pxTorem(48);
+    p{
+      color: #f50e39;
+      font-size: pxTorem(24);
+      line-height: pxTorem(96);
+      text-indent: pxTorem(109);
+    }
+  }
+}
+.goodServices{
+  @include intiBox(0,0);
+  overflow: hidden;
+  padding-top: pxTorem(22);
+  padding-bottom: pxTorem(22);
+  @include bgColor;
+  background-image: url("../images/goodInfo/rightArrow.jpg");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  background-size: .065rem .1rem;
+  p{
+    font-size: pxTorem(24);
+    color: #333;
+    float: left;
+  }
+  p:first-child{
+    color: #999;
+    text-indent: pxTorem(26);
+  }
+  p:nth-child(2){
+    text-indent: pxTorem(34);
+  }
+  p:nth-child(3){
+    color: #999;
+    float: left;
+    text-indent: pxTorem(1.6 * 200);
+  }
+}
+.ellspsis{
+  max-width: pxTorem(250);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.seller{
+  @include intiBox(0,0.95 * 200);
+  @include bgColor();
+  position: relative;
+  box-sizing: border-box;
+  padding-left:pxTorem(22);
+  padding-top: pxTorem(27);
+  .left{
+    float: left;
+    @include intiBox(97,87);
+  } 
+  .giIcon{
+    left: pxTorem(68 * 2 );
+    top: pxTorem(38 * 2 );
+  }
+  .right{
+    @include intiBox(1.45 * 200,100);
+    float: left;
+    margin-left: pxTorem(16);
+    padding-top: pxTorem(5);
+    p{
+      font-size: pxTorem(24);
+      color: #333;
+      line-height: pxTorem(33)
+    }
+    img{
+      display: block;
+      @include intiBox(176,24);
+      margin-left: pxTorem(85);
+      margin-top: pxTorem(20);
+    }
+  }
+}
+.buttons{
+  @include intiBox(308,50);
+  float: right;
+  overflow: hidden;
+  padding-top: pxTorem(18);
+  p{
+    @include intiBox(130,46);
+    border: 1px solid #ff5000;
+    border-radius: pxTorem(23);
+    float: left;
+    font-size: pxTorem(22);
+    color: #ff5000;
+    text-align: center;
+    line-height: pxTorem(46);
+  }
+  p:last-child{
+    margin-left: pxTorem(24);
+    color: white;
+    background: linear-gradient(to right,#ff8b00,#ff5500);
+  }
+}
+.rotes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+  box-sizing: border-box;
+  padding-right: pxTorem(24);
+  p{
+    font-size: pxTorem(22);
+    color:#9d9d9d;
+  }
+}
+.xiangqing{
+  display: block;
+  @include intiBox(310 * 1.3,26 * 1.3);
+  margin-top: pxTorem(40);
+  margin-left: 20.1%;
+}
+.giImgs{
+  @include intiBox(0,a);
+  margin-top: pxTorem(80);
+  img{
+    display: block;
+    width: 100%;
+  }
+}
+.giImgs::after{
+content: '';
+display: block;
+@include intiBox(0,106)
+}
+/*footer 2.015*/
+footer{
+  @include intiBox(0,108);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top:none;
+  background-color: #f2f2f2;
+  .left{
+    @include intiBox(296,a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: pxTorem(30);
+    padding-right: pxTorem(30);
+    float: left;
+    p{
+      font-size: pxTorem(22);
+      color: #666;
+    }
+    i{
+      display: block;
+      @include intiBox(39,39);
+      margin: 0 auto;
+      font-size: pxTorem(46);
+      padding-bottom: pxTorem(6);
+    }
+  }
+  .icon-dianpu{
+    color:#ff5a28;
+  }
+}
+.hasfav{
+  color:#ff5a28;
+}
+.buybutton{
+  @include intiBox(2.265 * 200,a);
+  box-sizing: border-box;
+  padding-left: pxTorem(8);
+  padding-right: pxTorem(14);
+  padding-top: pxTorem(14);
+  float: left;
+  p{
+    width: 50%;
+    height: pxTorem(80);
+    font-size: pxTorem(24);
+    float: left;
+    line-height:pxTorem(80);
+    text-align: center;
+    color: white; 
+  }
+  p:first-child{
+    border-top-left-radius: pxTorem(40);
+    border-bottom-left-radius: pxTorem(40);
+    background: linear-gradient(to right,#ffca00,#ff9402);
+  }
+  p:last-child{
+    border-top-right-radius: pxTorem(40);
+    border-bottom-right-radius: pxTorem(40);
+    background: linear-gradient(to right,#ff5a28,#ff0141);
+  }
+}

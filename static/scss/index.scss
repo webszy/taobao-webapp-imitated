@@ -1,0 +1,435 @@
+@charset "utf-8";
+@function pxTorem($px){
+    @return $px / 200  * 1rem; 
+}
+@mixin intiBox($width,$height){
+    @if $width == 0 {
+        width: 100%;
+    }
+    @else{
+        width: pxTorem($width);
+    }
+    @if $height == 0{
+        height: auto;
+    }@else{
+        height: pxTorem($height);
+    }
+}
+@mixin bgColor {
+    background-color: white;
+}
+
+html{
+    font-size: 26.67vw;
+    height: 100%;
+}
+body{
+    background-color: #f2f2f2;
+    height: 100%;
+
+}
+#app{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+/*头部*/
+.sMainHead{
+    @include intiBox(0,88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: pxTorem(24);
+    padding-right: pxTorem(24);
+    box-sizing: border-box;
+    background-color: #ff8800;
+    h3{
+        font-weight: 100;
+        color: white;
+        padding-top: pxTorem(5);
+    }
+    p{
+        @include intiBox(40,40);
+        line-height: pxTorem(40);
+        font-size: pxTorem(50);
+        color: white;
+    }
+    .icon-erweima{
+        font-size: pxTorem(46);
+    }
+    .left{
+       width: pxTorem(73);
+       height: 100%;
+       padding-top: pxTorem(13);
+       box-sizing: border-box;
+       font-size: pxTorem(16);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .mid{
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: pxTorem(16);
+        input{
+            display:block;
+            @include intiBox(408, 54);
+            background-color: rgba(255, 255, 255, 0.3);
+            border:none;
+            float: left;
+            color: white;
+            font-size: pxTorem(24);
+            line-height: pxTorem(54);
+            text-indent: pxTorem(15);
+        }
+        span{
+            float: left;
+            @include intiBox(50, 54);
+            background-color: rgba(255, 255, 255, 0.3);
+            text-align: center;
+            line-height: pxTorem(54);
+            font-size: pxTorem(40);
+            color: white;
+        }
+        span:first-child{
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        span:last-child{
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;   
+            text-align: left;
+        }
+    }
+    .right{
+        width: pxTorem(73);
+        height: 100%;
+        padding-top: pxTorem(13);
+        box-sizing: border-box;
+        font-size: pxTorem(16);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*轮播图*/
+.sMainGellay{
+    @include intiBox(0,233 );
+    // background-color: salmon;
+    position: relative;
+    // box-sizing: border-box;
+    .layer{
+        @include intiBox(0,20);
+        background-color: white;
+        position: absolute;
+        left: 0;
+        bottom: pxTorem(-5);
+        border-radius:  40% 40% 0 0 / 100% 100% 0 0;
+        z-index: 9;
+    }
+  
+    .swiper-slide{
+        img{
+            display: block;
+            @include intiBox(0,233);
+        }
+    }
+    .swiper-pagination{
+        top: pxTorem(10);
+        position: absolute;
+    }
+}
+.wrap{
+    width: 100%;
+    flex:1;
+    overflow-y:auto;
+}
+/*导航按钮*/
+.sMainMenu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: pxTorem(16);
+    box-sizing: border-box;
+    @include intiBox(0,310);
+    @include bgColor ;
+    // .menuItem:nth-child(5n){
+    //     margin-right: 0;
+    // }
+    .menuItem:nth-child(n-5){
+        margin-bottom: pxTorem(40);
+    }
+}
+.menuItem{
+    width: 20%;
+    height: pxTorem(119);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img{
+        display: block;
+        @include intiBox(84,84);
+        margin-bottom: pxTorem(18);
+    }
+    p{
+        font-size: pxTorem(20);
+        color: #666;
+        text-align: center;
+        line-height: pxTorem(20);
+    }
+}
+/*头条*/
+.textGellay{
+    // @include intiBox(0,124);
+    // @include bgColor ;
+    // margin-bottom: pxTorem(20);
+    // .left{
+    //     @include intiBox(120,124);
+    //     background: url("../images/index/hotTitle.webp") no-repeat  center;
+    //     background-size: pxTorem(70);
+    //     float: left;
+    // }
+    // .right{
+    //     float: left;
+    // }
+    width:100%;
+    // margin-bottom:0.05rem;
+    overflow: hidden;
+/*淘宝头条*/
+.f-BeeTravel{
+    height:0.55rem;
+    background-color:#ffffff;
+    display: flex;
+    
+}
+.f-BeeTravelPic{
+    display: block;
+    width: pxTorem(70);
+    height: pxTorem(70);
+    // @include intiBox(120,124);
+    padding-left:pxTorem(20);
+    padding-top: pxTorem(25);
+    margin-right: pxTorem(10);
+}
+.f-SwipreBox {
+    width:3.07rem;
+    height: 0.55rem;
+    display: flex;
+    justify-content: space-between;
+}
+.f-SwipreBoxPic{
+    width:0.7rem;
+    height:0.55rem;
+}
+
+.f-SwipreBox-Carous{
+    width:3.1rem;
+    display: flex;
+    background-color:#ffffff;
+}
+.f-SwipreBoxCarousa_x{
+    display: flex;
+    flex-direction: column;
+}
+.f-SwipreBoxCarousa{
+    width:2.4rem;
+    height:0.28rem;
+    display: flex;
+    align-items: center;
+    padding-left:0.03rem;
+}
+.f-SwipreBox-CarousaB{
+    width:0.25rem;
+    height:0.17rem;
+    border:1px solid #ff604b;
+    font-size: 0.4em;
+    border-radius:0.02rem;
+    color:#ff604b;
+    display: block;
+    line-height:0.17rem;
+    text-align: center;
+    margin-right:0.03rem;
+}
+.f-SwipreBox-CarousSpan{
+    display: block;
+    font-size:0.11rem;
+    line-height:0.17rem;
+    color:#4e4e4e;
+    width:1.8rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+}
+/**/
+.sMainPlane{
+    @include intiBox(0,1.3 * 200);
+    box-sizing: border-box;
+    margin-top: pxTorem(10);
+    margin-bottom: pxTorem(20);
+    background: url("../../static/images/malong/fbee.gif") no-repeat left center;
+    background-size:contain; 
+    .plane{
+        float: left;
+        width: 50%;
+        height: 50%;
+        border: 1px solid #eee;
+        box-sizing: border-box;
+    }
+    div:nth-child(n+1){
+        border-top: none;
+    }
+    div:nth-child(n+3){
+        border-bottom: none;
+    }
+    div:nth-child(odd){
+        border-right: none;
+    }
+    .left{
+        height: 100%;
+    }
+    .left img{
+        display: block;
+        @include intiBox(0,160)
+    }
+    .right{
+        width: 50%;
+        height: 75%;
+    }
+    .left,.right{
+        float: left;
+        width: 50%;
+    }
+}
+.sMainPlaneTitle{
+    @include intiBox(0,52);
+    line-height: pxTorem(52);
+    font-size: pxTorem(28);
+    text-indent: pxTorem(22);
+}
+.titColorRed{
+    color: #ff160f;
+}
+
+.sMainArea{
+    @include intiBox(0, 743);
+    @include bgColor;
+    position: relative;
+    margin-bottom: pxTorem(20);
+    .img1{
+        @include intiBox(249 * 2, 125 * 2 );
+        float: left;
+    }
+    .img2{
+        display: block;
+        @include intiBox(124 * 2, 125 * 2 );
+        float: left;
+    }
+    .area{
+        width: 50%;
+        box-sizing: border-box;
+        float: left;
+        p{
+            padding-top: pxTorem(18);
+
+            span:first-child{
+                line-height: pxTorem(17 * 2);
+                display: block;
+                text-indent: pxTorem(18);
+                font-size: pxTorem(14 * 2);
+                width: pxTorem(208);
+
+            }
+            span:last-child{
+                line-height: pxTorem(17 * 2);
+                display: block;
+                text-indent: pxTorem(18);
+                font-size: pxTorem(12 * 2);
+                width: pxTorem(228);
+            }
+            
+        }
+        img{
+            @include intiBox(62 * 2,62 * 2 );
+            float: left;
+        }
+        img:last-child{
+            margin-left: pxTorem(80);
+        }
+    }
+}
+.smaTit{
+    @include intiBox(0,58);
+    display: block;
+    position: absolute;
+    left:0;
+    top:pxTorem(-14);
+
+}
+.smaTit2{
+    @include intiBox(88 * 2,16 * 2);
+    position: absolute;
+    right: pxTorem(20 * 2);
+    top: pxTorem(100 * 2);
+    line-height: pxTorem(16 * 2);
+    text-align: center;
+    font-size: pxTorem(22);
+    color:  white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0  0.08rem 0.1rem  0.1rem;
+    background-color: #eb4c2b;
+}
+.samTitColorRed{
+    color: rgb(255, 54, 9);
+
+}
+.samTitColorGray{
+    color: rgb(153, 153, 153);
+}
+.samtitBg{
+    background: url("../images/index/tit1.webp") no-repeat right center;
+    background-size: auto .13rem; 
+}
+.areaBot{
+    width: 25%;
+    height: pxTorem(123 * 2);
+    overflow: hidden;
+    clear: right;
+    float: left;
+    p{
+        width: 100%;
+        margin-bottom: pxTorem(13);
+        padding-top: pxTorem(18);
+        span:first-child{
+            color:rgb(51, 51, 51);
+            display: block;
+            font-size: pxTorem(14 * 2);
+            text-indent: pxTorem(18);
+            line-height: pxTorem(17 * 2);
+            font-weight: 600;
+        }
+        span:last-child{
+            font-size: pxTorem(12 * 2);
+            display: block;
+            text-indent: pxTorem(18);
+        }
+    }
+    img{
+        display: block;
+        @include intiBox(62 * 2, 62 * 2);
+        margin: 0 auto;
+    }
+
+
+}
+/* footer*/
+footer{
+    @include intiBox(0, 98);
+    @include bgColor;
+    border-top: 1px solid black;
+}

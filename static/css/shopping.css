@@ -1,0 +1,388 @@
+@charset "utf-8";
+
+img{
+  border:0;
+  display: block;
+}
+/*header*/
+#app{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.xaheader{
+  height: .45rem;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .1rem;
+  padding-right: .1rem;
+  box-sizing: border-box;
+  background-color: white;
+
+}
+.xaheader a {
+  font-size: .16rem;
+  display:block;
+  color: #333333;
+  text-decoration: none;
+}
+#app .xaheader a i{
+  display: block;
+  font-size: .2rem;
+}
+.give{
+  font-size: .16rem;
+}
+.scrlooBox{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  flex: 1;
+  overflow-y: scroll;
+  background-color: white;
+
+}
+.xaNav{
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  /*flex: 1;*/
+  /*padding-top: .1rem;*/
+  /*padding-bottom: .1rem;*/
+  background-color: white;
+
+}
+.xaNav a{
+  display: block;
+  margin-right:.1rem;
+}
+.homeAddr{
+  width: auto;
+  height: auto;
+  overflow: hidden;
+
+}
+.homeAddr p{
+  font-size: .14rem;
+  color: #333333;
+  line-height: .3rem;
+}
+.homeAddr p span{
+  font-size: .14rem;
+  color: #333333;
+  float: right;
+}
+.homeAddr h2{
+  font-size: .14rem;
+  color: #333333;
+  font-weight: 100;
+  margin-bottom:.1rem;
+}
+.homeAddr h2 span{
+  font-size: .14rem;
+  color: #333333;
+  font-weight: 100;
+}
+.homeAddr h1{
+  color:#f9d190;
+  font-size: .13rem;
+}
+#app .xaNav a i {
+  display: block;
+  font-size: .2rem;
+  line-height: .8rem;
+}
+#app .xaNav a{
+  display: block;
+  color: #333333;
+}
+.images{
+  width: 100%;
+  display: block;
+  margin-top: .15rem;
+  margin-bottom: .15rem;
+}
+.section{
+  width: 100%;
+  height: auto;
+}
+.tmallTitle{
+  width: 100%;
+  height:.45rem;
+  text-align: center;
+}
+.tmallTitle img{
+  width: .25rem;
+  height: .2rem;
+  margin-top: .09rem;
+  float: left;
+}
+.tmallTitle p{
+  font-size: .14rem;
+  color: #333333;
+  float: left;
+  margin-top: .09rem;
+  margin-left: .1rem;
+}
+.tShirt{
+  width: 100%;
+  height: .9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.tShirt img{
+  width: .9rem;
+  height: .9rem;
+  /*float: left;*/
+}
+.tShirtMes{
+  width: 70%;
+  /*float: left;*/
+  margin-left: .13rem;
+}
+.tShirtMes p{
+  color: #333333;
+  font-size: .14rem;
+}
+.tShirtMes h1{
+  color: #9f9f9f;
+  font-size: .14rem;
+  font-weight: 100;
+  margin-top: .1rem;
+  margin-bottom: .11rem;
+}
+.sevenBox{
+  width: auto;
+  height: auto;
+  font-size: .14rem;
+  color: #dd2727;
+  border: 1px solid #dd2727;
+  display: block;
+}
+.showPrice{
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+.showPrice h2{
+  float: left;
+  color: #fca47c;
+  font-size: .14rem;
+}
+.showPrice h2 span{
+  display: inline-block;
+  color: #fca47c;
+  font-size: .14rem;
+}
+.showPrice{
+  width: 100%;
+  height: auto;
+}
+.showNum{
+  float: right;
+  color: #3d4245;
+  font-size: .13rem;
+}
+.buyNum{
+  width: 100%;
+  height: .58rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buyNum p{
+  line-height: .58rem;
+  font-size: .15rem;
+  color: #333333;
+}
+.clickNum{
+  width: .75rem;
+  height: .25rem;
+}
+.subBox{
+  width: .25rem;
+  height: .25rem;
+  border: none;
+  float:left;
+  font-size: .16rem;
+  color: #c8c8c8;
+  background-color: #FFFFFF;
+}
+.addBox{
+  width: .25rem;
+  height: .25rem;
+  border: none;
+  float:right;
+  color: #c8c8c8;
+  font-size: .16rem;
+  background-color: #FFFFFF;
+}
+.Num{
+  font-size: .15rem;
+  float: left;
+  text-align: center;
+  line-height: .25rem;
+  width: .25rem;
+}
+.buyProt{
+  width: 100%;
+  height: .45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buyProt p{
+  line-height: .45rem;
+  font-size: .15rem;
+  color: #333333;
+}
+.buySend{
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.buySend h2{
+  font-size: .15rem;
+  color: #333333;
+  font-weight: 100;
+}
+.buySend h2 a i{
+  color: #333333;
+  font-size: .16rem;
+  margin-left: .03rem;
+}
+/*.buySend a{*/
+  /*float: right;*/
+/*}*/
+/*.buySend a i{*/
+  /*font-size: .2rem;*/
+/*}*/
+
+.griPro{
+  width: 100%;
+  height: .45rem;
+}
+.griPro p{
+  float: left;
+  line-height: .45rem;
+  font-size: .15rem;
+  color: #333333;
+}
+/*.peiBox{*/
+  /*width: auto;*/
+  /*height: auto;*/
+  /*overflow: hidden;*/
+  /*float: right;*/
+/*}*/
+
+.checkBox{
+  width: .18rem;
+  height: .18rem;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  float: right;
+  margin-left: .06rem;
+  /*line-height: .45rem;*/
+  margin-top: .1rem;
+  background-color: #999999;
+  color: #FFFFFF;
+}
+.giveMon{
+  line-height: .45rem;
+  font-size: .15rem;
+  color: #333333;
+  font-weight: 100;
+  float: right;
+}
+.griPro h4{
+  width: .18rem;
+  height: .18rem;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  float: right;
+  background-color: #999999;
+  color: #FFFFFF;
+  font-size: .13rem;
+  line-height: .18rem;
+  text-align: center;
+  margin-top: .1rem;
+}
+.xafooter{
+  width: 100%;
+  height: .47rem;
+  background-color: white;
+
+}
+.totalPri{
+  font-size: .14rem;
+  color: #333333;
+  line-height: .47rem;
+  float: right;
+}
+.totalPri span{
+  color: #ff5001;
+  font-size: .16rem;
+}
+.subList{
+  width:1.11rem;
+  height: .47rem;
+  background: linear-gradient(to right,#ff8b00,#ff5100);;
+  float: right;
+  font-size: .13rem;
+  line-height: .47rem;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: .12rem;
+  font-weight: 100;
+}
+.conCheck{
+  border: none;
+  color: #c8c8ce;
+  font-size:.13rem;
+  float: left;
+  margin-top: .15rem;
+  width:2rem;
+}
+.calc{
+  width: 100%;
+  height: .5rem;
+}
+.calc p{
+  font-size: .14rem;
+  color: #333333;
+  float: right;
+}
+.calc p span{
+  color: #ff580c;
+  font-size: .16rem;
+  margin-left: .1rem;
+}
+.splitDate{
+  width:100%;
+  height: .62rem;
+}
+.dataWrite{
+  width: auto;
+  height:.62rem;
+  float: left;
+}
+.dataWrite p{
+  color: #777777;
+  font-size:.14rem;
+}
+.dataWrite h2{
+  color: #ff5001;
+  font-size:.14rem;
+}
+.chooseBox{
+   float: right;
+  width: .2rem;
+  height:.2rem;
+  background-color: #FFFFFF;
+  border: 1px solid #333333;
+ }

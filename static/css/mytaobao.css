@@ -1,0 +1,376 @@
+.app{
+  background-color: #f4f4f4;
+}
+/*header*/
+.GehMyTbHeader{
+  padding:0.3rem 0.12rem 0.38rem;
+  background:linear-gradient(to right,#ff8c00 0%,#ff5400 100%);
+}
+.GehHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GehHeader .GehP a{
+  margin-top: 0.05rem;
+  display: block;
+  font-size:0.15rem;
+  color:#fff;
+  line-height:100%;
+
+}
+.GehHeadPortraits{
+  display: flex;
+  justify-content: space-around;
+}
+.GehID{
+  margin-left:0.12rem;
+}
+.GehHeadPortraits i{
+  display: block;
+  width:0.47rem;
+  height:0.47rem;
+}
+.GehHeadPortraits i a{
+  display:block;
+  width:0.47rem;
+  height:0.47rem;
+  border:3px solid #fff;
+  border-radius:50%;
+}
+.GehHeadPortraits i img{
+  width:0.47rem;
+  height:0.47rem;
+  text-align:center;
+
+}
+.GehHeadPortraits h5 a{
+  display: block;
+  text-indent: 2px;
+  font-size:0.185rem;
+  color:#fff;
+
+}
+.GehHeadPortraits p{
+  margin-top:0.05rem;
+}
+.GehHeadPortraits p a{
+  display:block;
+  width: 0.8rem;
+  height: 0.21rem;
+  line-height: 0.21rem;
+  border-radius:0.15rem;
+  background:#e56600 url('../images/gao/mytaobao-qinqing.png') no-repeat 0.09rem center;
+  background-size:0.13rem 0.1rem;
+  font-size:0.105rem;
+  color:#fff;
+  text-align:left;
+  padding-left: 0.256rem;
+}
+.GehHeadPortraits p img{
+  width:0.035rem;
+  height:0.06rem;
+  display: inline;
+  padding-left:0.03rem;
+}
+.GehFooter{
+  padding:0.27rem 0.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.GehClassify a p{
+  font-size:0.115rem;
+  color:#fff;
+  text-align:center;
+}
+.GehClassify a p:nth-of-type(1){
+  margin-bottom:0.12rem;
+}
+
+/*main part*/
+section{
+
+}
+.GehVip{
+  background:#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0.125rem 0;
+  margin:0 0.12rem 0.12rem;
+  border-radius:0.11rem;
+  position:relative;
+  top:-0.21rem;
+}
+.GehVipOnly .GehVipLeft{
+  padding-left: 0.125rem;
+
+}
+.GehVipOnly a img{
+  padding-right:0.125rem;
+}
+.GehVip,.GehVip a{
+  color:#666;
+  font-weight: 200;
+}
+.GehVip a img{
+  width:0.56rem;
+  height:0.35rem;
+}
+.GehVip .GehVipLeft a img{
+  width:0.49rem;
+  height:0.135rem;
+  margin-bottom:0.07rem;
+}
+.GehVipLeft a span{
+  display:block;
+  font-size:0.1rem;
+}
+.GehVipCenter{
+  border-left:1px solid #eee;
+  padding-left:0.11rem;
+}
+.GehVipCenter h6{
+  font-weight: 200;
+  margin-bottom:0.1rem;
+  font-size:0.12rem;
+}
+.GehVipCenter p{
+  font-size:0.1rem;
+}
+.GehNav{
+  display:block;
+}
+.GehTitle a{
+  border-bottom:1px solid #eeeee7;
+  padding:0 0.15rem 0.125rem 0.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+.GehTitle a h5{
+  color:#333;
+  font-size:0.13rem;
+}
+.GehTitle a p{
+  font-size:0.115rem;
+  color:#999;
+  background:url('../images/gao/mygrayjiantou.png') no-repeat right center;
+  background-size:0.05rem 0.115rem;
+  padding-right:0.115rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:0 0.125rem;
+}
+nav .GehVipLeft{
+  position:relative;
+  padding-top:0.225rem;
+}
+nav .GehVipLeft b{
+  display: block;
+  width:0.15rem;
+  height:0.15rem;
+  border:3px solid #fe6401;
+  border-radius:50%;
+  background:#fff;
+  position:absolute;
+  left:0.2rem;
+  top:0.15rem;
+}
+
+nav .GehVipLeft i{
+  display: block;
+  font-size:0.23rem;
+  color:#ff5400;
+  text-align:center;
+}
+.GehTbAmuPark nav{
+  justify-content: space-around;
+}
+.GehTbAmuPark nav:nth-of-type(1){
+  border-bottom:1px solid #f4f4f4;
+}
+.GehTbAmuPark nav div{
+  width:1.39rem;
+
+}
+.GehTbAmuPark nav .GehVipPlay:nth-of-type(1){
+  border-right:1px solid #f4f4f4;
+}
+.GehVip nav .GehVipLeft i img{
+  width:0.22rem;
+  height:0.22rem;
+  margin:0 auto;
+}
+
+.GehVipPlay a{
+  display: flex;
+  justify-content: space-between;
+}
+.GehNav nav .GehVipPlay a img{
+  width:0.335rem;
+  height:0.335rem;
+  padding-right:0.1rem;
+}
+.GehPlay h6{
+  line-height:0.105rem;
+  float:left;
+  font-size:0.105rem;
+  color:#3a3a3a;
+  margin-bottom:0.06rem;
+}
+.GehPlay h6 span{
+  float:right;
+  display: block;
+  height:0.1rem;
+  border:2px solid #e14544;
+  border-radius:2px;
+  color:#e14544;
+  font-size:0.08rem;
+}
+.GehPlay p{
+  clear: both;
+  font-size:0.09rem;
+  color:#6d6d6d;
+}
+.GehMyZfb{
+  overflow: hidden;
+  border-bottom:1px solid #eee;
+  margin-bottom:0.345rem;
+}
+.GehMyZfb a{
+  float: left;
+}
+.GehMyZfb h5{
+  margin:0 auto;
+  display: block;
+  font-size:0.15rem;
+  color:#333;
+  font-weight: 100;
+}
+.GehMyZfb h5 img{
+  padding-left:1.215rem;
+
+  float: left;
+  width:0.2rem;
+  height:0.2rem;
+}
+.GehMyZfb span{
+  padding-right:0.14rem;
+  display: block;
+  width:0.2rem;
+  height:0.2rem;
+  background:url('../images/gao/myeyes.png') no-repeat center center;
+  background-size: contain;
+}
+.GehMyZfb span{
+  float:right;
+}
+.GehZhiFuBao nav{
+  justify-content: space-around;
+}
+.GehZhiFuBaoLeft a h3{
+  text-align:center;
+  font-size:0.125rem;
+  font-weight: 100;
+  color:#418ce2;
+  padding-bottom:0.25rem;
+}
+.GehZhiFuBaoLeft a h3 span{
+  font-weight:900;
+  font-size:0.2rem;
+}
+.GehZhiFuBaoLeft a h6{
+  text-align:center;
+  font-size:0.13rem;
+  color:#666;
+  padding-bottom:0.145rem;
+}
+.GehZhiFuBaoLeft a p{
+  text-align:center;
+  font-size:0.11rem;
+  color:#666;
+  padding-bottom:0.22rem;
+}
+.GehZhiFuBaoP{
+  margin:0 auto;
+  display: block;
+  width: 1.345rem;
+  border:1px solid #448fe2;
+  border-radius:0.15rem;
+}
+.GehZhiFuBaoP a{
+  display: block;
+  color: #448fe2;
+  font-size:0.13rem;
+  line-height:0.29rem;
+  padding:0 0.26rem;
+}
+.GehTaoQiZhi a h3{
+  color:#ec6a2c;
+  line-height:0.415rem;
+  padding-bottom:0.14rem;
+}
+
+.GehTaoQiZhi a h3 img{
+  display: inline-block;
+  width:0.13rem;
+  height:0.2rem;
+}
+.GehZhiFuBaoLeft a .GehTaoQiZhiHsix{
+  color:#ec6a2c;
+}
+.GehTaoQiZhi a .GehTaoQiZhiH{
+  padding-bottom:0;
+}
+.GehTaoQiZhi a .GehTaoQiZhiH img{
+  display: inline-block;
+  width:0.415rem;
+  height:0.415rem;
+}
+.GehTaoQiZhiP{
+  border-color:#ec6a2c;
+}
+.GehTaoQiZhiP a{
+  color:#ec6a2c;
+}
+/*footer*/
+footer ul{
+  background:#f9f8f9;
+  padding:0.075rem 0.18rem 0.045rem 0.26rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li a .iconfont{
+  display: block;
+  font-size:0.21rem;
+  color:#5b5b5b;
+  text-align:center;
+}
+footer ul li a .icon-wode1{
+  color:#ec6a2c;
+}
+footer ul li a p{
+  text-align:center;
+  font-size:0.1rem;
+  color:#5b5b5b;
+  padding-top:0.075rem
+}
+/* footer ul li a .GehIcon-wode1{
+   color:#ec6a2c; 
+} */
+footer ul li{
+  position: relative;
+}
+footer ul li a b{
+  display: block;
+  width:0.07rem;
+  height:0.07rem;
+  background:#ec5d29;
+  border-radius:50%;
+  position: absolute;
+  right:-0.05rem;
+  top:0;
+}

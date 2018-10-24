@@ -1,0 +1,22 @@
+@charset "utf-8";
+@function pxTorem($px){
+    @return $px / 200  * 1rem; 
+}
+@mixin intiBox($width,$height){
+    @if $width == 0 {
+        width: 100%;
+    }
+    @else{
+        width: pxTorem($width);
+    }
+    @if $height == 0{
+        height: auto;
+    }@else if $height == a{
+      height: 100%;
+    }@else{
+        height: pxTorem($height);
+    }
+}
+@mixin bgColor {
+    background-color: white;
+}

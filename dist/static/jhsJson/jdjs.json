@@ -1,0 +1,28 @@
+{
+  "s":[
+  {"title":"高峰攀登侠","explain":"打卡全国名山","img":"static/images/malong/f-lv1.jpg"},
+  {"title":"冲绳·自由行","explain":"杭州-冲绳4-5天自由行","img":"static/images/malong/f-lv2.jpg"},
+  {"title":"北京·跟团游","explain":"飞猪专线北京旅游纯玩团","img":"static/images/malong/f-lv3.jpg"},
+  {"title":"东京·当地玩乐","explain":"日本旅游 日本一日游","img":"static/images/malong/f-lv4.jpg"},
+  {"title":"西安·国内门票","explain":"西安兵马俑门票兵马俑","img":"static/images/malong/f-lv5.jpg"},
+  {"title":"沙巴·自由行","explain":"马来西亚沙巴自由行","img":"static/images/malong/f-lv6.jpg"},
+  {"title":"塞班·自由行","explain":"全国直飞美国塞班岛旅游","img":"static/images/malong/f-lv7.jpg"},
+  {"title":"巴黎·跟团游","explain":"高品质日本旅游东京富士山","img":"static/images/malong/f-lv8.jpg"},
+  {"title":"高峰攀登侠","explain":"打卡全国名山","img":"static/images/malong/f-lv1.jpg"},
+  {"title":"冲绳·自由行","explain":"杭州-冲绳4-5天自由行","img":"static/images/malong/f-lv2.jpg"},
+  {"title":"北京·跟团游","explain":"飞猪专线北京旅游纯玩团","img":"static/images/malong/f-lv3.jpg"},
+  {"title":"东京·当地玩乐","explain":"日本旅游 日本一日游","img":"static/images/malong/f-lv4.jpg"},
+  {"title":"西安·国内门票","explain":"西安兵马俑门票兵马俑","img":"static/images/malong/f-lv5.jpg"},
+  {"title":"沙巴·自由行","explain":"马来西亚沙巴自由行","img":"static/images/malong/f-lv6.jpg"},
+  {"title":"塞班·自由行","explain":"全国直飞美国塞班岛旅游","img":"static/images/malong/f-lv7.jpg"},
+  {"title":"巴黎·跟团游","explain":"高品质日本旅游东京富士山","img":"static/images/malong/f-lv8.jpg"}
+  ],
+  "t":[
+    {"label":"马尔代夫","one":"华丽的海滩","imgs":"static/images/malong/f-tra1.jpg"},
+    {"label":"青青世界","one":"展示最杰出的美景","imgs":"static/images/malong/f-tra2.jpg"},
+    {"label":"国际海洋馆","one":"海洋世界展览","imgs":"static/images/malong/f-tra3.jpg"},
+    {"label":"商业步行街","one":"浏览全球美景","imgs":"static/images/malong/f-tra4.jpg"},
+    {"label":"香港海洋公园","one":"打卡全国名山","imgs":"static/images/malong/f-tra5.jpg"},
+    {"label":"北京八达岭","one":"看名山风景","imgs":"static/images/malong/f-lv3.jpg"}
+  ]
+}

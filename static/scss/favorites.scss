@@ -1,0 +1,242 @@
+@charset "utf-8";
+@function pxTorem($px){
+    @return $px / 200  * 1rem; 
+}
+@mixin intiBox($width,$height){
+    @if $width == 0 {
+        width: 100%;
+    }
+    @else{
+        width: pxTorem($width);
+    }
+    @if $height == 0{
+        height: auto;
+    }@else{
+        height: pxTorem($height);
+    }
+}
+@mixin myPadding($top,$right,$bottom,$left){
+    @if $top>0{
+        padding-top: pxTorem($top)
+    }
+    @if $right>0{
+        padding-right: pxTorem($right)
+    }
+    @if $bottom>0{
+        padding-bottom: pxTorem($bottom)
+    }
+    @if $left>0{
+        padding-left: pxTorem($left)
+}
+}
+@mixin myMargin($top,$right,$bottom,$left){
+    @if $top>0{
+        margin-top: pxTorem($top)
+    }
+    @if $right>0{
+        margin-right: pxTorem($right)
+    }
+    @if $bottom>0{
+        margin-bottom: pxTorem($bottom)
+    }
+    @if $left>0{
+        margin-left: pxTorem($left)
+    }
+}
+@mixin bgColor() {
+    background-color: white;
+}
+html{
+    height: 100%;
+    font-size: 26.67vw;
+}
+body{
+    height: 100%;
+    background-color: white;
+ 
+}
+/*header*/
+.sfavHead{
+    @include intiBox(0,77);
+    @include myPadding(25,22 ,18 ,25 );
+    font-size: pxTorem(26);
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+
+   i{
+        @include intiBox(40,40);
+        line-height: pxTorem(40);
+        text-align: center;
+        font-size: pxTorem(48);
+    }
+}
+.sfavHeadItem{
+    margin-left: 24%;
+    margin-right: 10.8%;
+    width: pxTorem(287);
+    position: relative;
+    span{
+      display: inline-block;
+      width: pxTorem(116);
+      height: pxTorem(28);  
+    }
+    span:first-of-type{
+        margin-right: 7.33%; 
+    }
+}
+.choicedItem{
+    color: #ff5500;
+
+   
+}
+.choicedItem::after{
+    content: '';
+    @include intiBox(64,4);
+    background-color: #ff5500;
+    position: absolute;
+    left: 11px;
+    top: 26px;
+}
+
+.sfavEdit{
+    margin-left: 4.26%;
+}
+/*心愿单*/
+.sfavWantList{
+    width: 100%;
+    height: pxTorem(200);
+    padding-top: pxTorem(38);
+    padding-bottom: pxTorem(36);
+    @include myPadding(0, 24, 0, 24);
+    box-sizing: border-box;
+    background-color: white;
+
+    div{
+        float: left;
+    }
+    .sides{
+        width: pxTorem(15);  
+        height: pxTorem(140);
+        background-color: #7155a4;
+
+    }
+    .left{
+        border-top-left-radius: pxTorem(12);
+        border-bottom-left-radius: pxTorem(12);  
+    }
+    .right{
+        border-top-right-radius: pxTorem(12);
+        border-bottom-right-radius: pxTorem(12);  
+    }
+    .listCon{
+        width: 95.73%;
+        height: 113%;
+        background: url("../images/index/wantList.jpg") no-repeat left center;
+        background-size: cover;
+    }
+}
+/*收藏夹小标题*/
+.sfavTitle{
+    @include intiBox(0,60);
+    // @include myPadding(0,24 ,0 ,24 );
+    // box-sizing: border-box;
+    font-size: pxTorem(22);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    div{
+        float: left;
+    }
+    .left{
+        display: flex;
+        width: pxTorem(260);
+        justify-content: space-between;
+        align-content: center;
+        span{
+            width: pxTorem(130);
+            background:url("../images/index/downArrow.jpg") no-repeat right center;
+            background-size: .05rem .04rem;
+            margin-left: pxTorem(24);
+            margin-top: pxTorem(24);
+
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: pxTorem(157);
+        margin-right: pxTorem(20);
+        i{
+            @include intiBox(40,40);
+            line-height: pxTorem(40);
+            text-align: center;
+            font-size: pxTorem(40);
+        }
+        em{
+            @include intiBox(2,25);
+            background-color: #ddd;
+        }
+    }
+}
+/*收藏夹内的商品*/
+
+.sfavGoods{
+    width: 100%;
+    height: auto;
+    padding-top: pxTorem(43);
+    background-color: white;
+}
+.sfavGoodList{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+    li{
+        @include myPadding(0,24 ,0 , 24);
+        position: relative;
+        padding-bottom: pxTorem(20);
+        overflow: hidden;
+        @include bgColor() ;
+        img{
+            display: block;
+            @include intiBox(280, 280);
+            float: left;
+        }
+        div{
+            float: left;
+            font-size: pxTorem(22);
+            width: pxTorem(393);
+            margin-left: pxTorem(26);
+            p:first-child{
+                line-height: pxTorem(33);
+                margin-bottom: pxTorem(18);
+            }
+            p:nth-child(2){
+                color: #999;
+                line-height: pxTorem(22);
+            }
+            p:nth-child(3){
+                margin-top: pxTorem(124);
+                color: #ff570b;
+                
+                span{
+                    font-size: pxTorem(34);
+                }
+            }
+            p:last-child{
+                position: absolute;
+                color: #999;
+                @include intiBox(112, 48);
+                border: 1px solid #999;
+                line-height: pxTorem(48);
+                text-align: center;
+                border-radius: pxTorem(24);
+                top: pxTorem(220);
+                right: pxTorem(24);
+            }
+
+        }
+    }
+}

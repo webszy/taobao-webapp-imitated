@@ -1,0 +1,145 @@
+.app{
+  background-color: #f4f4f4;
+}
+/*header*/
+.GehMessHeader{
+  opacity: 1;
+  padding:0.175rem 0.15rem 1.085rem 0.14rem;
+  background:linear-gradient(to right,#ff8c00 0%,#ff5400 100%);
+}
+.GehMessHeaderBox{
+  display: flex;
+  justify-content: space-between;
+}
+.GehMessHeaderBox h5{
+  color:#fff;
+  font-size:0.185rem;
+}
+.GehMessHeaderBox p{
+  line-height: 0.185rem;
+  display: flex;
+  justify-content: space-between;
+}
+.GehMessHeaderBox p a{
+  color:#fff;
+  font-size: 0.135rem;
+  margin:auto;
+}
+.GehMessHeaderBox p a:nth-of-type(1){
+  padding-right:0.27rem;
+}
+.GehMessHeaderBox p a img{
+  width:0.16rem;
+  height:0.16rem;
+}
+.GehMessHeaderFooter{
+  margin-top:0.16rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.GehMessHeaderFooter p{
+  line-height:0.2rem;
+  font-size:0.12rem;
+  color:#fff;
+}
+.GehMessHeaderFooter a img{
+  width:0.2rem;
+  height:0.2rem;
+  padding-left:0.135rem;
+}
+
+/*nav*/
+.GehMessNavA{
+  position:relative;
+}
+.GehMessNavA ul{
+  background:#fff;
+  padding:0.16rem 0.345rem;
+  border-radius:0.16rem;
+  position: absolute;
+  top:-0.84rem;
+  box-shadow: 0 5px 5px #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+
+}
+.GehMessNavA ul li{
+  position:relative;
+}
+.GehMessNavA ul li b,.GehMessSection ul li a b{
+  display: block;
+  position:absolute;
+  width:0.18rem;
+  height:0.18rem;
+  background:#ff5000;
+  font-size: 0.1rem;
+  color:#fff;
+  border:1px solid #fff;
+  border-radius:50%;
+  text-align:center;
+  line-height:0.18rem;
+}
+.GehMessNavA ul li b{
+  bottom:0.48rem;
+  left:0.34rem;
+}
+.GehMessNavA ul li:nth-of-type(2){
+  padding:0 0.69rem;
+}
+.GehMessNavA ul li:nth-of-type(2) b{
+  left:1.05rem;
+}
+.GehMessNavA ul li a img{
+  width:0.48rem;
+  height:0.48rem;
+  padding-bottom:0.005rem;
+}
+.GehMessNavA ul li a p{
+  font-size:0.115rem;
+  color:#666;
+}
+
+/*section*/
+.GehMessSection{
+  background:#fff;
+}
+.GehSection{
+  height:0.3rem;
+  border-top:2px solid #f3f3f3;
+}
+.GehMessSection ul li{
+  position: relative;
+}
+.GehMessSection ul li a{
+  display: flex;
+  justify-content: space-between;
+}
+.GehMessSection ul li a img{
+  width:0.48rem;
+  height:0.48rem;
+}
+.GehSectionBox{
+  display: flex;
+  justify-content: space-between;
+}
+.GehSectionUls{
+  padding-left:0.1rem;
+}
+.GehMessSection ul li a .GehSectionUls h4{
+  font-size:0.16rem;
+  color:#000;
+  font-weight: 500;
+}
+.GehMessSection ul li a .GehSectionUls p{
+  font-size:0.13rem;
+  color:#999;
+}
+.GehMessSection ul li a p{
+  font-size:0.115rem;
+  color:#999;
+}
+.GehMessSection ul li a b{
+  position:absolute;
+  left:0.38rem;
+  top:-0.1rem;
+}

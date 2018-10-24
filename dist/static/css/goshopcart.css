@@ -1,0 +1,190 @@
+.app{
+  background-color: #f4f4f4;
+}
+/*header*/
+.GehGoShopheader{
+  display: flex;
+  justify-content: space-between;
+  padding:0.175rem 0.15rem 1.085rem 0.14rem;
+  background:linear-gradient(to right,#ff8c00 0%,#ff5400 100%);
+}
+.GehGoShopheader{
+  color:#fff;
+}
+.GehGoShopheader p{
+  font-size:0.14rem;
+
+}
+.GehGoShopheader .GehHeaderTitle h3{
+  font-size:0.185rem;
+  margin-bottom:0.15rem;
+}
+.GehGoShopheader .GehHeaderTitle p{
+  font-size:0.13rem;
+}
+/*section*/
+.GehGoShopSection{
+  position:relative;
+  top:-0.86rem;
+}
+.GehGoShopSection .GehSectionModules{
+  background:#fff;
+  margin:0 0.12rem 0.21rem;
+  border-radius:0.1rem;
+  padding:0 0.125rem 0;
+}
+.GehSectionStoreName{
+  overflow: hidden;
+  padding:0.125rem 0 0.18rem;
+}
+.GehSectionCheck{
+  flex-shrink: 0;
+  width:0.165rem;
+  height:0.165rem;
+  border:0.015rem solid #c6c6c6;
+  border-radius:50%;
+  float: left;
+  font-size:0.16rem;
+  text-align:center;
+  line-height:0.165rem;
+  color:#fff;
+}
+.GehSectionCheck input{
+  opacity: 0;
+}
+.GehSectionStoreName h5 a{
+  float: left;
+  font-size:0.12rem;
+  color:#60646d;
+  text-indent:0.285rem;
+  line-height:0.165rem;
+  background:url(../images/gao/goshopstore.png) left center no-repeat,
+  url(../images/gao/mygrayjiantou.png) right center no-repeat;
+  background-size:0.18rem 0.165rem,0.055rem 0.09rem;
+  margin-left:0.125rem;
+  padding-right:0.175rem;
+}
+.GehSectionProduct{
+  clear: both;
+  padding-bottom:0.17rem;
+  display:flex;
+  justify-content: space-around;
+
+}
+.GehSectionProduct .GehSectionCheck{
+  margin:auto;
+  margin-right:0.12rem;
+}
+.GehSectionProductLi a{
+  display:flex;
+  justify-content: space-around;
+
+}
+.GehSectionProductLi span img{
+  width: 0.92rem;
+  height: 0.92rem;
+}
+.GehSectionProductLiUls{
+  padding-left:0.14rem;
+}
+.GehSectionProductLiUls li h6{
+  font-size:0.115rem;
+  font-weight:500;
+  color:#333;
+  line-height:0.17rem;
+}
+
+.GehSectionProductLiUls li:nth-of-type(2){
+  background:#f9f9f9 url(../images/gao/goshopfooterjiantou.png) no-repeat 99% center;
+  font-size:0.11rem;
+  color:#999;
+  line-height:0.25rem;
+  border-radius: 0.025rem;
+  padding:0 0.05rem;
+  margin:0.055rem 0 0.035rem;
+}
+.GehSectionProductLiUls li:nth-of-type(3){
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.GehSectionProductLiUls li p{
+  color:#ed6b31;
+  font-size:0.08rem;
+}
+.GehSectionProductLiUls li p span{
+  font-size:0.11rem;
+}
+.GehSectionProductLiUls li div{
+  width:0.79rem;
+  display: flex;
+  justify-content: space-around;
+  border:2px solid #eee;
+  border-radius:0.03rem;
+}
+.GehSectionProductLiUls li div span{
+  display: block;
+  font-size: 0.07rem;
+  color:#ddd;
+}
+.GehSectionProductLiUls li div span:nth-of-type(2) input{
+  border:none;
+  border-left:2px solid #eee;
+  border-right:2px solid #eee;
+  width:0.35rem;
+  height:0.19rem;
+  text-align:center;
+}
+.GehSectionProductLiUls li div span:nth-of-type(3){
+  color:#999;
+}
+/*close an account*/
+.GehSubOrd{
+  background:#fff;
+  border-top:1px solid #ddd;
+  padding:0.105rem 0.08rem 0.04rem 0.135rem;
+  display: flex;
+  justify-content: space-between;
+}
+.GehSubOrdLeft{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.GehSubOrdLeft p{
+  font-size:0.11rem;
+  color:#666;
+  padding-left:0.07rem;
+}
+.GehSubOrdRight{
+  display: flex;
+  justify-content: space-around;
+}
+.GehSubOrdRight h4{
+  font-size:0.14rem;
+  color:#666;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.GehSubOrdRight h4 p{
+  color:#ec612a;
+  font-size:0.06rem;
+  padding-left:0.2rem;
+  padding-right:0.05rem;
+}
+.GehSubOrdRight h4 p span{
+  fontsize:0.14rem;
+}
+.GehSubOrdRight b{
+  font-weight: 400;
+  display: block;
+  width:0.96rem;
+  height:0.4rem;
+  background:linear-gradient(to right,#ff8c00 0%,#ff5400 100%);
+  border-radius:0.2rem;
+  font-size:0.13rem;
+  color:#fff;
+  text-align:center;
+  line-height:0.4rem;
+}

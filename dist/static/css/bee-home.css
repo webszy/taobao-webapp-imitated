@@ -1,0 +1,602 @@
+
+#app{
+    width:3.75rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+/*搜索栏*/
+.f-BeeHeader{
+    height:0.4rem;
+    background-color:#ffc900;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.f-BeeHeader .f-HeaderPic{
+    width: 0.2rem;
+    height:0.21rem;
+    margin-left: .12rem;
+    margin-right: .12rem;
+}
+
+.f-BeeHeader .f-HeaderInp{
+    margin-left: .12rem;
+    margin-right: .12rem;
+    width:2.77rem;
+    height:0.26rem;
+    border-radius:0.11rem;
+    background-color:#fffae6;
+    border:none;
+    display: block;
+    outline: none;
+    background-image:url("../images/malong/index1.png");
+    background-repeat:no-repeat;
+    background-position:0.09rem center;
+    background-size:0.15rem;
+    border-top-right-radius:0;
+    padding-top:0.04rem;
+}
+input::-webkit-input-placeholder{
+    font-size:0.15rem;
+    color:#b5b2a6;
+    text-indent:0.3rem;
+}
+.icon-weizhi{
+    font-size:0.21rem;
+    color:#4c4739;
+}
+
+
+/*中间列表*/
+.f-Nav{
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y:scroll;
+    width:100%;
+    background-color:#f6f6f6;
+}
+
+/*轮播图*/
+.f-BeeCarous{
+    width:100%;
+    height:1.21rem;
+    background-color: sandybrown;
+}
+.f-BeeCarous .swiper-container .swiper-wrapper .swiper-slide img{
+    width:3.75rem;
+    height:1.21rem;
+}
+
+/*旅行头条选项*/
+.f-BeeMenuList{
+    width:100%;
+    margin-bottom:0.05rem;
+}
+/*泰国一日游*/
+.f-BeeMenuListUls{
+    width:100%;
+    height:1.4rem;
+    background-color:#ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-BeeMenuListUls .f-BeeMenuListUls-lis{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.f-BeeMenuListUls-pic{
+    width:0.6rem;
+    height:0.5rem;
+}
+.f-BeeMenuListUls-a{
+    font-size:0.07rem;
+    color:#959595;
+    line-height:0.13rem;
+}
+.f-BeeMenuListUls-lisa{
+    position: relative;
+    left:0;
+    top:0;
+}
+.f-BeeMenuListUls-span{
+    position: absolute;
+    right: -0.06rem;
+    top: 0.05rem;
+    width:0.44rem;
+    height:0.17rem;
+    font-size:0.09rem;
+    color:white;
+    border-radius:0.06rem;
+    border-bottom-left-radius:0;
+    line-height:0.17rem;
+    text-align: center;
+}
+
+/*旅行头条*/
+.f-BeeTravel{
+    height:0.55rem;
+    background-color:#ffffff;
+    display: flex;
+}
+.f-BeeTravelPic{
+    width:0.5rem;
+    height:0.55rem;
+    padding-left:0.18rem;
+}
+.f-SwipreBox {
+    width:3.07rem;
+    height: 0.55rem;
+    display: flex;
+    justify-content: space-between;
+}
+.f-SwipreBoxPic{
+    width:0.7rem;
+    height:0.55rem;
+}
+
+.f-SwipreBox-Carous{
+    width:3.1rem;
+    display: flex;
+    background-color:#ffffff;
+}
+.f-SwipreBoxCarousa_x{
+    display: flex;
+    flex-direction: column;
+}
+.f-SwipreBoxCarousa{
+    width:2.4rem;
+    height:0.28rem;
+    display: flex;
+    align-items: center;
+    padding-left:0.03rem;
+}
+.f-SwipreBox-CarousaB{
+    width:0.25rem;
+    height:0.17rem;
+    border:1px solid #ff604b;
+    font-size: 0.12em;
+    border-radius:0.02rem;
+    color:#ff604b;
+    display: block;
+    line-height:0.17rem;
+    text-align: center;
+    margin-right:0.03rem;
+}
+.f-SwipreBox-CarousSpan{
+    display: block;
+    font-size:0.11rem;
+    line-height:0.17rem;
+    color:#4e4e4e;
+    width:1.8rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+/*飞猪特卖*/
+.f-Special{
+    width:100%;
+    /*background-color:#e3dddd;*/
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:0.05rem;
+    /*height:2.3rem;*/
+}
+.f-SpecialLeft{
+    width:49.8%;
+    background-color:#ffffff;
+}
+.f-SpecialLeft-Topcia{
+    font-size:0.15rem;
+    color:#fe5003;
+    padding-top:0.12rem;
+    padding-left:0.12rem;
+    font-weight:600;
+}
+.f-SpecialLeft-Topcin{
+    font-size:0.12rem;
+    color:#444444;
+    line-height:0.34rem;
+    width:90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding-left:0.12rem;
+}
+
+.f-SpecialLeft-box{
+    height:0.9rem;
+    position:relative;
+}
+.f-SpecialLeft-Toppic{
+    width:1.64rem;
+    height:0.68rem;
+    padding:0.14rem 0 0 0.12rem;
+}
+.f-SpecialLeft-p{
+    width:0.91rem;
+    height:0.26rem;
+    background:linear-gradient(to right, #ff9f00, #ff5700);
+    color:#ffffff;
+    font-size:0.14rem;
+    line-height:0.26rem;
+    text-align: center;
+    border-radius:0.2rem;
+    border-top-right-radius: 0;
+    position: absolute;
+    left:0.12rem;
+    top: 0;
+}
+
+
+.f-SpecialRight{
+    width:49.7%;
+    /*height:1.6rem;*/
+    background-color:#ffffff;
+}
+.f-SpecialRight-top{
+    display: flex;
+    justify-content: space-between;
+}
+.f-SpecialLeft-TopciaP1{
+    color:#13b2f5;
+}
+.f-SpecialLeft-TopSpan{
+    display: block;
+    width:0.3rem;
+    height:0.15rem;
+    line-height:0.15rem;
+    font-size:0.1rem;
+    color:#ff5000;
+    border:1px solid #ff5000;
+    border-radius:0.02rem;
+    margin-top:0.15rem;
+    text-align: center;
+    margin-right:0.12rem;
+}
+.f-SpecialLeft-Topcina{
+    width:30%;
+}
+.f-SpecialLeft-TopSpana{
+    border:none;
+    width:0.5rem;
+    line-height:0.08rem;
+    margin-right:0.08rem;
+}
+.f-SpecialRight-top1{
+    border-bottom:1px solid #f1f1f1;
+}
+.f-SpecialLeft-Topcib{
+    color:#ed6463;
+}
+.f-SpecialLeft-pc{
+    font-size:0.12rem;
+    line-height:0.34rem;
+    color:#333333;
+    width:0.92rem;
+    padding-left:0.12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.f-SpecialLeftPc{
+    width:0.92rem;
+    padding-left:0.12rem;
+    display: flex;
+}
+.f-SpecialLeftSpana{
+    color:#ff5000;
+    display: block;
+    font-size:0.12rem;
+    width:0.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.f-SpecialLeftSpanb{
+    display: block;
+    width:0.26rem;
+    height:0.15rem;
+    border:0.01rem solid #ff5000;
+    font-size:0.09rem;
+    text-align: center;
+    line-height:0.15rem;
+    color:#ff5000;
+}
+.f-SpecialLeft-boxPic{
+    width:0.66rem;
+    height:0.66rem;
+    padding-right:0.11rem;
+    padding-top:0.1rem;
+}
+.f-SpecialLeft-boxa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*出境超市*/
+.f-Leaves{
+    width:100%;
+    padding-bottom:0.19rem;
+}
+.f-Leaves-left{
+    width: 100%;
+    height:0.35rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.f-Leaves-left-top1{
+    width:100%;
+    height:0.36rem;
+}
+.f-Leaves-left-tp{
+    position: absolute;
+    right:0.3rem;
+    font-size:0.12rem;
+    color:#686868;
+}
+b{
+    display: block;
+    width:0.16rem;
+    height:0.16rem;
+    border-radius:50%;
+    background-color:#fac900;
+    font-size:0.15rem;
+    color:#ffffff;
+    line-height:0.16rem;
+    text-align: center;
+    margin-left:0.05rem;
+    box-sizing: border-box;
+}
+
+.f-LeavesUls{
+    width:100%;
+    height:0.54rem;
+    display: flex;
+    align-items: center;
+}
+.f-LeavesUls li{
+    padding:0 0.12rem 0 0.12rem;
+    font-size:0.11rem;
+    color: #666666;
+    border:1px solid #fcb226;
+    border-radius:0.2rem;
+    line-height: 0.3rem;
+    margin-right:0.1rem;
+}
+.f-LeavesUls li:nth-of-type(1){
+    margin-left: 0.12rem;
+}
+
+.f-LeavesPic{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom:0.1rem;
+}
+.f-LeavesPicBox_a{
+    position: relative;
+}
+.f-LeavesPic_a{
+    width:2.32rem;
+    height:1.13rem;
+    margin-left:0.12rem;
+}
+.f-LeavesPicBox_ba{
+    position: absolute;
+    left:0.13rem;
+    bottom:0.1rem;
+    text-indent:0.13rem;
+}
+.f-LeavesPicBox_ap{
+    font-size:0.17rem;
+    color: white;
+    line-height:0.3rem;
+}
+.f-LeavesPicBox_ab{
+    font-size:0.12rem;
+    color: white;
+    line-height:0.2rem;
+}
+
+.f-LeavesPic_b{
+    width:1.13rem;
+    height:1.13rem;
+    margin-right:0.12rem;
+}
+.f-LeavesPicBox_b{
+    position: relative;
+}
+.f-LeavesPicBox_bp{
+    font-size:0.13rem;
+    font-weight:600;
+    line-height:0.28rem;
+    text-align: center;
+    color:#45422f;
+    width:1rem;
+    height:0.28rem;
+    background-color:#ffe500;
+    border-radius:0.2rem;
+    border-top-right-radius:0;
+    position: absolute;
+    bottom:0.06rem;
+    left:0.06rem;
+}
+.f-LeavesPicb{
+    width:94%;
+    height:0.36rem;
+    margin:0 auto;
+}
+
+/*全球第一站*/
+.f-Global{
+    width:100%;
+}
+.f-Global_i{
+    display: block;
+    margin:0 auto;
+    width:94%;
+    height:1px;
+    background-color:#e7e2e2;
+}
+.f-GlobalTui{
+    width:94%;
+    height:1.28rem;
+    margin:0 auto;
+    display: flex;
+
+}
+.f-GlobalTuiBa{
+    width:1.2rem;
+    height:1.28rem;
+    background-color:#f2f3f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.f-GlobalTuiPic{
+    width:2.32rem;
+    height:1.28rem;
+    background-color: seagreen;
+}
+.f-GlobalTuiBa p{
+    width:0.37rem;
+    height:0.24rem;
+    background-color:#ffc900;
+    color:#3d3d3d;
+    font-size:0.12rem;
+    line-height:0.24rem;
+    text-align: center;
+    margin-left:0.06rem;
+}
+.f-GlobalTuiBa span{
+    display: block;
+    width:0.9rem;
+    height:0.75rem;
+    font-size:0.14rem;
+    color:#3d3d3d;
+    margin-left:0.06rem;
+    line-height: 0.25rem;
+}
+.f-GlobalTuiBa small{
+    width:0.3rem;
+    height:2px;
+    background-color:#ffc900;
+    margin-left:0.06rem;
+}
+.f-GlobalTuiBa em{
+    font-style: normal;
+    font-size:0.1rem;
+    color:#a5a5a5;
+    margin-bottom:0.06rem;
+    margin-left:0.06rem;
+}
+.f-GlobalGjia{
+    width:94%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin:0 auto;
+}
+.f-GlobalGuo{
+    width:32.7%;
+    margin:0.06rem auto;
+    flex-shrink: 0;
+    position: relative;
+    padding-right:0.06rem;
+}
+.f-GlobalGuoPic1{
+    width:100%;
+    height:0.65rem;
+}
+.f-GlobalGuoSpa{
+    display: block;
+    width:0.57rem;
+    height:0.23rem;
+    background-color:rgba(0,0,0,0.4);
+    position:absolute;
+    left:0;
+    top:0.42rem;
+    color:white;
+    font-size: 0.1rem;
+    text-align: center;
+    line-height:0.23rem;
+}
+.f-GlobalGuoSpsa{
+    display: block;
+    width:100%;
+    height:0.36rem;
+    font-size:0.11rem;
+    line-height:0.18rem;
+    color:#3d3d3d;
+    padding-top:0.08rem;
+}
+
+/*旅行任意门*/
+.f-RilyUls{
+    width:96%;
+    margin:0 auto;
+
+}
+.f-RilyUlsLis{
+    width:50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.f-RilyUlsLis li:nth-child(even){
+ padding:0 0.1rem 0 0.1rem;
+}
+.f-RilyUlsPic{
+    width:1.13rem;
+    height:0.65rem;
+}
+.f-RilyUls .h6{
+    font-size:0.14rem;
+    color:#3d3d3d;
+    line-height:0.3rem;
+}
+.f-RilyUlsSpa{
+    display:block;
+    font-size:0.12rem;
+    color: #a5a5a5;
+    line-height:0.15rem;
+}
+
+/*底部*/
+.f-Footer{
+    margin-top:0.14rem;
+    width:100%;
+    height:2rem;
+}
+
+.f-FootrA{
+    width:0.45rem;
+    height:0.45rem;
+    background-color:#fafcfd;
+    border-radius:50%;
+    border:1px solid #e6e7e8;
+    color:#666666;
+    font-size:0.09rem;
+    text-align:center;
+    position: fixed;
+    right:0.15rem;
+    bottom:0.7rem;
+}
+.f-FootrA-pic{
+    width:0.17rem;
+    height:0.17rem;
+    margin:0.05rem auto;
+}
